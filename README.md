@@ -398,6 +398,6 @@ The `prepare_bios.sh` script automates these steps:
 
 ## Credits
 
-- **Original solution:** [Reddit r/thinkpad - HOWTO T440s 5 beep fix](https://www.reddit.com/r/thinkpad/comments/1o5g4i2/howto_t440s_5_beep_fix/) by u/fsch-
+- **Original solution:** [Reddit r/thinkpad - HOWTO T440s 5 beep fix](https://www.reddit.com/r/thinkpad/comments/1o5g4i2/howto_t440s_5_beep_fix/) by u/xorgmc
 - **ThinkPad-Forum.de:** [Thread 238003](https://thinkpad-forum.de/threads/238003/)
 - **ThinkWiki:** [BIOS Extraktion aus ISO](https://thinkwiki.de/BIOS_Extraktion_aus_ISO)
