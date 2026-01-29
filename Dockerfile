@@ -26,6 +26,7 @@ RUN git clone --depth 1 https://review.coreboot.org/coreboot.git /tmp/coreboot \
 # Download and install UEFIExtract
 RUN wget -q https://github.com/LongSoft/UEFITool/releases/download/A73/UEFIExtract_NE_A73_x64_linux.zip \
     && unzip UEFIExtract_NE_A73_x64_linux.zip -d /usr/local/bin/ \
+    && mv /usr/local/bin/uefiextract /usr/local/bin/UEFIExtract \
     && chmod +x /usr/local/bin/UEFIExtract \
     && rm UEFIExtract_NE_A73_x64_linux.zip
 
