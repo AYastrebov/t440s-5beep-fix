@@ -1,0 +1,26 @@
+# Ignore backup files and output files
+*.bin
+*.iso
+*.img
+
+# Ignore HTML documentation
+*.html
+
+# Ignore git and editor files
+.git
+.gitignore
+*.swp
+*.swo
+*~
+
+# Ignore Claude/IDE settings
+.claude/
+.vscode/
+.idea/
+
+# Ignore macOS files
+.DS_Store
+
+# Ignore temporary files
+tmp/
+temp/
