@@ -24,10 +24,10 @@ RUN git clone --depth 1 https://review.coreboot.org/coreboot.git /tmp/coreboot \
     && rm -rf /tmp/coreboot
 
 # Download and install UEFIExtract
-RUN wget -q https://github.com/LongSoft/UEFITool/releases/download/A68/UEFIExtract_NE_A68_linux_x86_64.zip \
-    && unzip UEFIExtract_NE_A68_linux_x86_64.zip -d /usr/local/bin/ \
+RUN wget -q https://github.com/LongSoft/UEFITool/releases/download/A73/UEFIExtract_NE_A73_x64_linux.zip \
+    && unzip UEFIExtract_NE_A73_x64_linux.zip -d /usr/local/bin/ \
     && chmod +x /usr/local/bin/UEFIExtract \
-    && rm UEFIExtract_NE_A68_linux_x86_64.zip
+    && rm UEFIExtract_NE_A73_x64_linux.zip
 
 # Copy scripts
 COPY prepare_bios.sh /usr/local/bin/
